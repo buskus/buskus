@@ -386,30 +386,27 @@ IMG.display{
 
 
 .pop_box1{
-background-color: rgba(0, 0, 0, .2);
     display: none;
     width: 100%;
-    height: 700px;
+    height: 500px;
     margin-top: 0;
     padding-top:90px;
     position: absolute;
 }
 
 .pop_box2{
-background-color: rgba(0, 0, 0, .2);
     display: none;
     width: 100%;
-    height: 700px;
+    height: 500px;
     margin-top: 0;
     padding-top:90px;
     position: absolute;
 }
 
 .pop_box3{
-background-color: rgba(0, 0, 0, .2);
     display: none;
     width: 100%;
-    height: 700px;
+    height: 500px;
     margin-top: 0;
     padding-top:90px;
     position: absolute;
@@ -417,10 +414,9 @@ background-color: rgba(0, 0, 0, .2);
 
 
 .pop_box4{
-background-color: rgba(0, 0, 0, .2);
     display: none;
     width: 100%;
-    height: 700px;
+    height: 500px;
     margin-top: 0;
     padding-top:90px;
     position: absolute;
