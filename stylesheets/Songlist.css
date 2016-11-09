@@ -54,22 +54,26 @@ float: left;
 }
 
 
- #first ul li{
+ #first1{
     list-style: none;
-    padding-left: 12%;
-    padding-right: 0%;
-     padding-top: 0px;
+     padding-top: 2px;
      margin-top: 0px;
      float: left;
-    
+     background-color: rgb(70, 62, 103);
+     width: 50%;
+     height: 50px;
+     
+   
 }
 
-#first ul {
-padding-left: 2%;
+#first2{
     background-color: rgb(70, 62, 103);
     padding-top: 2px;
     margin-top: 0px;
     height: 50px;
+    float: left;
+    width: 50%;
+  
   
     
 }
@@ -130,22 +134,26 @@ float: right;
     
 }
 
- #third ul li{
+ #third1{
     list-style: none;
-    padding-left: 0%;
-    padding-right: 12%;
-     padding-top: 0px;
+     padding-top: 2px;
      margin-top: 0px;
-     float: right;
-    
+     float: left;
+     background-color: rgb(70, 62, 103);
+     width: 50%;
+     height: 50px;
+     
+   
 }
 
-#third ul {
-padding-left: 2%;
+#third2{
     background-color: rgb(70, 62, 103);
     padding-top: 2px;
     margin-top: 0px;
-    height: 45px;
+    height: 50px;
+    float: left;
+    width: 50%;
+  
   
     
 }
@@ -158,6 +166,7 @@ IMG.display{
     margin-bottom: auto;
 }
 
+/*--------------------------------------------*/
 
 /*--------------------------------------------*/
 
@@ -208,13 +217,50 @@ IMG.display{
 }
 
 
+.photobar{
+    background-color: rgb(170, 62, 3);
+    width: 100%;
+    height: 75px;
+    padding: 0;
+    margin: 0;
+    float:left;
+    background: url("stormlarge-19.png");
+   
+}
+
+.photobarstart{
+    width: 0%;
+    background-color:none;
+    height: 65px;
+    float:left;
+    padding-top: 10px;
+
+}
+
+.photobarmid{
+    width: 100%;
+    background-color:none;
+    height: 60px;
+    float:left;
+    padding-top: 15px;
+}
+
+.photobarend{
+    width: 0%;
+    background-color:none;
+    height: 75px;
+    float:left;
+   
+}
+
+
 
 
     
 
 .title {
     background-color: rgb(222, 219, 236);
-    width: 60%;
+    width: 100%;
     height: 18px;
     text-align: center;
     padding-top: 8px;
@@ -224,45 +270,26 @@ IMG.display{
    
 }
 
-.pretitle{
-    background-color: rgb(222, 219, 236);
-   width: 20%;
-    height: 26px; 
-    float:left;
-    
-}
-
-.posttitle{
-    background-color: rgb(222, 219, 236);
-   width: 20%;
-    height: 26px; 
-    float:left;
-    
-    
-}
-
-
-.posttitle img{
-  float: left;
-    padding-top: 7px;
-    
-}
-
-.topspace{
-    width: 100%;
-    height: 110px;
-    float:left;
-}
-
 
 #alphabet{
     width: 100%;
     float: left;
     height: 28px;
     background-color: rgba(250,250,250, 0.7);
-    margin-top: 16px;
+    margin-top: 8px;
     
 }
+
+.topspace{
+    width: 100%;
+    height: 184px;
+    float:left;
+}
+
+
+
+
+
 
 .songs {
     background-color:none;
@@ -270,23 +297,24 @@ IMG.display{
     height: 50px;
     border-bottom: 1px solid rgb(235, 235, 235);
     float:left;
+   
 }
 
 .songs1{
     background-color:none; 
-    width: 11%;
+    width: 10%;
     padding-top: 20px;
     height: 28px;
     float: left;
     text-align: right;
-    padding-right: 4%;
-        font-size: 12pt;
+    padding-right: 0%;
+        font-size: 8pt;
         color: grey;
         
 }
 .songs2{
     background-color:none; 
-    width: 70%;
+    width: 75%;
     height: 100%;
     float: left;
   
@@ -329,11 +357,6 @@ IMG.display{
     height: 40px;
     float:left;
 }
-
-
-
-
-
 
 
 
