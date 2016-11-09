@@ -167,7 +167,6 @@ IMG.display{
 }
 
 
-
 /*--------------------------------------------*/
 
 
@@ -220,7 +219,7 @@ IMG.display{
 .photobar{
     background-color: rgb(170, 62, 3);
     width: 100%;
-    height: 178px;
+    height: 75px;
     padding: 0;
     margin: 0;
     float:left;
@@ -228,159 +227,53 @@ IMG.display{
    
 }
 
-.photobarleft{
-    width: 37%;
-        height: 135px;
-    float: left;
-   padding-top: 10px;
+.photobarstart{
+    width: 20%;
+    background-color:none;
+    height: 65px;
+    float:left;
+    padding-top: 10px;
+
 }
 
 .photobarmid{
-    width: 25%;
-        height: 135px;
-    float: left;
-    padding-top: 10px;
+    width: 60%;
+    background-color:none;
+    height: 60px;
+    float:left;
+    padding-top: 15px;
+}
+
+.photobarend{
+    width: 20%;
+    background-color:none;
+    height: 75px;
+    float:left;
    
 }
 
-.photobarright{
-    width: 37%;
-        height: 145px;
-    float: left;
-  
-}
-
-
-.photobarright img{
-    float: left;
-    padding-top: 10px;
- 
-   
-}
-
-.photobarmid1{
-    width: 100%;
-        height: 75px;
-    float: left;
-    padding-top: 10px;
-   
-}
-
-.headerdetails{
-    width: 100%;
-        height: 60px;
-    float: left;
-   
-    
-    
-}
 
 
 
-
-.aboutme{
-    width: 90%;
-        height: 22px;
-    float: left;
-    background-color: rgba(255, 255, 255, 0.7);
-    font-size: 7pt;
-    text-align: center;
-    padding-top: 11px;
-}
-
-.aboutme2{
-    width: 10%;
-        height: 29px;
-     background-color: rgba(255, 255, 255, 0.7);
-    float: left;
-     padding-top: 10px;
-}
     
 
 .title {
     background-color: rgb(222, 219, 236);
     width: 100%;
-    height: 20px;
+    height: 18px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 8px;
     margin-top: 0px;
     float:left;
     font-size: 8pt;
    
 }
 
-.leftspace{
-    height: 20px;
-    width: 20%;
-    float: left;
-}
-
-.titleleft{
-    height: 20px;
-    width: 30%;
-    float: left;
-    border-bottom: 1px solid rgb(100, 100, 100);
-    
-}
-
-.titleright{
-    height: 20px;
-    width: 30%;
-    float: left;
-}
-.rightspace{
-    height: 20px;
-    width: 20%;
-    float: left;
-}
-
 .topspace{
     width: 100%;
-    height: 252px;
+    height: 140px;
     float:left;
 }
-
-.fullcoin {
-    background-color:none;
-    width: 100%;
-    height: 72px;
-    border-bottom: 1px solid rgb(235, 235, 235);
-    float:left;
-}
-
-
-.coins {
-    background-color:none;
-    width: 100%;
-    height: 40px;
-    float:left;
-   
-}
-
-.upper{
-     background-color:none; 
-    width: 100%;
-    height: 20px;
-    float: left;
-    padding-top: 20px;
-    font-size: 20pt;
-    text-align: center;
-    
-}
-
-.lower{
-     background-color:none; 
-    width: 100%;
-    height: 16px;
-    float: left;  
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-top: 8px;
-    font-size: 7pt;
-    text-align: center;
-}
-
-
 
 
 .songs {
@@ -398,18 +291,39 @@ IMG.display{
     padding-top: 20px;
     height: 28px;
     float: left;
-    
+    text-align: right;
+    padding-right: 4%;
+        font-size: 8pt;
+        color: grey;
         
 }
 .songs2{
     background-color:none; 
     width: 70%;
-    height: 20px;
+    height: 100%;
     float: left;
-    padding-top: 20px;
   
 }
 
+.upper{
+     background-color:none; 
+    width: 100%;
+    height: 16px;
+    float: left;
+    padding-top: 14px;
+    font-size: 10pt;
+}
+
+.lower{
+     background-color:none; 
+    width: 100%;
+    height: 20px;
+    float: left;  
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 0px;
+    font-size: 7pt;
+}
 
 .songs3{
     background-color:none; 
@@ -428,11 +342,3 @@ IMG.display{
     height: 40px;
     float:left;
 }
-
-
-
-
-
-
-
-
