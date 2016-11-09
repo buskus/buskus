@@ -383,7 +383,6 @@ IMG.display{
     float:left;
 }
 
-
 #pop_background{
 width: 100%;
 height:900px;
@@ -398,13 +397,16 @@ cursor: pointer;
 }
 
 #pop_box{
-background: none;
+background-color: rgba(0, 0, 0, .2);
     display: none;
     width: 100%;
+    height: 700px;
     margin-top: 0;
     padding-top:90px;
     position: absolute;
 }
+
+
 
 
 
