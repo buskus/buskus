@@ -175,7 +175,6 @@ IMG.display{
 
 /*--------------------------------------------*/
 
-
 .topcontainer{
  width: 100%;
     height: 60px;
@@ -229,17 +228,38 @@ IMG.display{
     padding: 0;
     margin: 0;
     float:left;
-    background: url("storm-05.png");
+    background: url("stormlarge-16.png");
    
 }
 
-.photobar img{
-    float: left;
-    padding-left: 4%;
+.photobarstart{
+    width: 20%;
+    background-color:none;
+    height: 65px;
+    float:left;
     padding-top: 10px;
- 
+
+}
+
+.photobarmid{
+    width: 60%;
+    background-color:none;
+    height: 60px;
+    float:left;
+    padding-top: 15px;
+}
+
+.photobarend{
+    width: 20%;
+    background-color:none;
+    height: 75px;
+    float:left;
    
 }
+
+
+
+
 
     
 
