@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width">
 <title>BuskUs</title>
 <link href="stylesheets/EditPlaylist.css" rel="stylesheet" type="text/css" />
 </head>
@@ -63,7 +63,7 @@
 </div> <!--end of header-->
       
    <!--------------------------------------------->
-       <div class ="topcontainer"> 
+        <div class ="topcontainer"> 
         
           <div class ="topbar">
               
@@ -84,21 +84,12 @@
         
         <div class ="photobar">
         
-             <div class ="photobarstart">
             <a href="Profile.html"><img class="display" src="images/profile.png" alt="logo" height="56px"/></a>
-            </div> <!--end of photobarstart-->
-          
-            
-            <div class ="photobarmid">
             
             <a href="Votes.html"><img class="display" src="images/headerbutton-10.png" alt="logo" height="40px"/></a>
             
-        </div> <!--end of photobarmid-->
+        </div> <!--end of photobar-->
           
-            <div class ="photobarend">
-                </div> <!--end of photobarend-->
-          </div> <!--end of photobar-->
-        
         
         
             <a href="Playlist.html"><div class ="pretitle"><img class="display" src="images/done-08.png" alt="done" height="18px"/></div></a>
@@ -221,18 +212,17 @@
         
           
         <div class ="basespace"></div>
-
         
        <!-- -------------------------------------------- --->
         
          <script src="javascripts/jquery-3.1.1.min.js"></script>
     <script src="javascripts/jquery-ui.js"></script>
         
-        <script src="jquery.ui.touch-punch.min.js"></script> 
-  
-    
+           
+        <script src="javascripts/jquery.ui.touch-punch.js"></script>
+   
+       
     <script>
-  
         $(document).ready(function () {
              $('#btnSave').hide();
             $("#ulThumbnailList").sortable({
@@ -253,10 +243,7 @@
         });
         })
     </script>
-        
-
-      
-       
+     
     </div><!--end of container-->
     
     </body>
