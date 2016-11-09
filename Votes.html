@@ -119,7 +119,7 @@
         
         <!--------------------------------------------->
         
-        <div class ="topspace"></div>
+                <div class ="topspace"></div>
         
         
        <a href="EditPlaylist.html"> <div class ="songs">
@@ -135,7 +135,7 @@
             
             <div class ="songs3">
                 
-                <a href="#"><img class="display" src="images/plus-07.png" alt="add" height="28px"/></a>
+                <a href="#" id="open"><img class="display" src="images/plus-07.png" alt="add" height="28px"/></a>
             
             </div><!--end of songs3-->
             
@@ -170,7 +170,7 @@
             
             <div class ="songs3">
                 
-                <a href="#"><img class="display" src="images/plus-07.png" alt="add" height="28px"/></a>
+                <a href="EditPlaylist.html"><img class="display" src="images/plus-07.png" alt="add" height="28px"/></a>
             
             </div><!--end of songs3-->
             
@@ -213,7 +213,42 @@
         </div><!--end of songs--></a>
  
 
-
+        
+         
+   <!--------------------------------------------->   
+        
+        
+        
+    
+        <div id="pop_box"><img class="display" src="images/popup-31.png" alt="add" height="190px"/></div><!--end of pop_box-->
+        
+        
+            <script>
+        $(document).ready(function(){
+           
+            $('#open') .click(function(){ 
+               $('#pop_box').fadeIn();
+               return false;
+           });
+            
+            
+               $('.container') .click(function(){
+               $('#pop_box').fadeOut();
+               return false;
+           });
+            
+        });
+    
+    </script>
+    
+    
+   <!---- <a href="#" id="open">Open PopUpWindow</a>---->
+        
+        
+        
+        
+    
+   <!--------------------------------------------->
         
         <div class ="basespace"></div>
 
